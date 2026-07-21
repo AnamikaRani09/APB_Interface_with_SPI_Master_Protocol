@@ -1,4 +1,4 @@
-module Slave_control_selector(
+module Slave_Control_Selector(
 	input PCLK,PRESET_n,mstr_i,send_data_i,spiswa_i,
 	input [1:0]spi_mode_i,
 	input [11:0]BaudRateDivisor_i,

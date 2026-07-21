@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module Slave_Select_generator_tb();
+module Slave_Control_Selector_tb();
 
 	// Inputs  ports as a reg type data type
 	reg PCLK;
@@ -17,7 +17,7 @@ module Slave_Select_generator_tb();
 	wire tip_o;
 
 	// Instantiate the Unit Under Test (UUT)
-	Slave_Select_Generator uut (
+	Slave_Control_Selector uut (
 		.PCLK(PCLK), 
 		.PRESET_n(PRESET_n), 
 		.mstr_i(mstr_i), 
